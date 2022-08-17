@@ -5,8 +5,8 @@
 }
 
 .constantFooter div {
-  position: absolute;
-  left: 0;
+  text-align: left;
+  margin: 5px;
 }
 
 .constantFooter h4 {

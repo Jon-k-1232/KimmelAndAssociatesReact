@@ -1,0 +1,15 @@
+.horizontalMenu {
+  padding: 5px;
+}
+
+.horizontalMenuList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.horizontalMenuList li {
+  cursor: pointer;
+  font-size: 19px;
+}
