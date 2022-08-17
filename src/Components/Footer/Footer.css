@@ -1,0 +1,30 @@
+.constantFooter {
+  background-color: #f9f9f9;
+  padding: 10px;
+  width: 100%;
+}
+
+.constantFooter div {
+  position: absolute;
+  left: 0;
+}
+
+.constantFooter h4 {
+  font-size: 18px;
+  padding: 0px 0px 0px 1em;
+  margin: 0;
+}
+
+.constantFooter h5 {
+  font-size: 18px;
+  padding: 0px 0px 0px 1em;
+  margin: 0;
+}
+
+.socialFooter {
+  display: inline-flex;
+}
+
+footer p {
+  padding: 1em;
+}
