@@ -5,7 +5,7 @@ import Header from './Components/Header/Header';
 import Router from './Components/Routes/Routes';
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = 'G-5T7QL64RT8';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 function App() {

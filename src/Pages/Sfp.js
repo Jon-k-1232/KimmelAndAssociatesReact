@@ -3,7 +3,7 @@ import login from '../images/login.jpeg';
 import TopView from '../Components/TopView/TopView';
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = 'G-5T7QL64RT8';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Sfp() {
