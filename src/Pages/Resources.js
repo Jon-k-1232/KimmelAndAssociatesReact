@@ -6,7 +6,7 @@ import HorizontalNavigationMenu from '../Components/Navigation/HorizontalNavigat
 import files from '../Resources/ResourceFileEnum';
 import ArticleContainer from '../Components/ArticleContainers/ArticleContainer';
 
-const TRACKING_ID = 'G-5T7QL64RT8';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Resources() {
