@@ -6,14 +6,14 @@ import cacti from '../images/cacti.jpg';
 import swan from '../images/swan.jpg';
 import stars from '../images/stars.jpg';
 import Employee from '../Components/Employee/Employee';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-const TRACKING_ID = 'UA-220438183-5';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 export default function About() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({ hitType: 'pageview', page: '/About' });
   }, []);
 
   return (

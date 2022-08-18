@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import canyon from '../images/canyon.jpg';
 import TopView from '../Components/TopView/TopView.js';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import HorizontalNavigationMenu from '../Components/Navigation/HorizontalNavigationMenu';
 import files from '../Resources/ResourceFileEnum';
 import ArticleContainer from '../Components/ArticleContainers/ArticleContainer';
 
-const TRACKING_ID = 'UA-220438183-5';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Resources() {
   const [menuNameSelection, setMenuNameSelection] = useState('featured');
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({ hitType: 'pageview', page: '/Resources' });
   }, []);
 
   const resources = () => {

@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
 import login from '../images/login.jpeg';
 import TopView from '../Components/TopView/TopView';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
-const TRACKING_ID = 'UA-220438183-5';
+const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Sfp() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send({ hitType: 'pageview', page: '/Sfp' });
   }, []);
 
   return (

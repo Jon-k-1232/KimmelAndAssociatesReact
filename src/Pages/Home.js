@@ -87,9 +87,3 @@ const serviceItems = [
     link: '/about'
   }
 ];
-
-/*
- ** To deploy to cloudflare from command line:
- ** gatsby build
- ** wrangler publish
- */
