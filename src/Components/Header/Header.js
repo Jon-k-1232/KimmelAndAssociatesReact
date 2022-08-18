@@ -24,16 +24,16 @@ export default function Header() {
             <div className='bar3'></div>
           </div>
           <ol className={menuDisplay ? 'menuItems open' : 'menuItems'} aria-hidden onClick={() => setMenuDisplay(false)}>
-            <li id='about'>
+            <li>
               <Link to='/About'>TEAM</Link>
             </li>
-            <li id='culture'>
+            <li>
               <Link to='/Resources'>RESOURCES</Link>
             </li>
-            <li id='connect'>
+            <li>
               <Link to='/Connect'>CONNECT</Link>
             </li>
-            <li id='login'>
+            <li>
               <Link to='/Sfp'>SFP LOGIN</Link>
             </li>
           </ol>

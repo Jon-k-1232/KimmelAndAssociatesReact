@@ -4,12 +4,13 @@ import TopView from '../Components/TopView/TopView.js';
 import ReactGA from 'react-ga';
 import HorizontalNavigationMenu from '../Components/Navigation/HorizontalNavigationMenu';
 import files from '../Resources/ResourceFileEnum';
+import ArticleContainer from '../Components/ArticleContainers/ArticleContainer';
 
 const TRACKING_ID = 'UA-220438183-5';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Resources() {
-  const [menuNameSelection, setMenuNameSelection] = useState('Individual');
+  const [menuNameSelection, setMenuNameSelection] = useState('featured');
 
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
@@ -17,11 +18,15 @@ export default function Resources() {
 
   const resources = () => {
     const resourceFiles = files.filter(file => file.group === menuNameSelection);
-    return resourceFiles.map((file, i) => <p key={i}>{file.file}</p>);
+    if (!resourceFiles.length) {
+      return <h2 id='fileDisplayName'>Comeback soon for new articles</h2>;
+    } else {
+    }
+    return resourceFiles.map((file, i) => <ArticleContainer key={i} file={file} />);
   };
 
   return (
-    <div className='culturePage'>
+    <div className='resourcePage'>
       <TopView
         image={canyon}
         imageClass='aboutCanyonImage'
@@ -30,30 +35,34 @@ export default function Resources() {
         SayingLineTwo='Helping customize a plan to fit your goals'
       />
       <HorizontalNavigationMenu listItems={listItems} setListItemClicked={menuName => setMenuNameSelection(menuName)} />
-      <div className='lowerCulture'>{resources()}</div>
+      <div className='lowerResources'>{resources()}</div>
     </div>
   );
 }
 
 const listItems = [
   {
+    displayName: 'Featured',
+    value: 'featured'
+  },
+  {
     displayName: 'Individual',
-    value: 'Individual'
+    value: 'individual'
   },
   {
     displayName: 'Business',
-    value: 'Business'
+    value: 'business'
   },
   {
     displayName: 'Estates and Trusts',
-    value: 'EstatesAndTrusts'
+    value: 'estatesAndTrusts'
   },
   {
     displayName: 'Retirement Planning',
-    value: 'RetirementPlanning'
+    value: 'retirementPlanning'
   },
   {
     displayName: 'Independent Contractors',
-    value: 'IndependentContractors'
+    value: 'independentContractors'
   }
 ];

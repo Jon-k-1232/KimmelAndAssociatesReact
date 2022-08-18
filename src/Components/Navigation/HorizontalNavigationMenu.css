@@ -1,15 +1,35 @@
 .horizontalMenu {
-  padding: 5px;
+  margin: 5px 0px;
 }
 
 .horizontalMenuList {
   padding: 0;
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-evenly; */
 }
 
 .horizontalMenuList li {
+  color: #5c5c5c;
   cursor: pointer;
-  font-size: 19px;
+  text-decoration: underline;
+  font-size: 22px;
+  padding: 10px;
 }
+
+.horizontalMenuList li:hover {
+  color: #5c5c5cd1;
+}
+
+@media only screen and (min-width: 500px) {
+  .horizontalMenuList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+/* @media only screen and (min-width: 940px) {
+
+} */
