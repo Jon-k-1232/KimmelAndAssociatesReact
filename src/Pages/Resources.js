@@ -31,8 +31,8 @@ export default function Resources() {
         image={canyon}
         imageClass='aboutCanyonImage'
         imageAlt='Looking up from narrow canyon.'
-        SayingLineOne='We serve as your financial compass'
-        SayingLineTwo='Helping customize a plan to fit your goals'
+        SayingLineOne='An investment in knowledge'
+        SayingLineTwo='pays the best interest.'
       />
       <HorizontalNavigationMenu listItems={listItems} setListItemClicked={menuName => setMenuNameSelection(menuName)} />
       <div className='lowerResources'>{resources()}</div>
