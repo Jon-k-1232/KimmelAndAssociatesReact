@@ -8,7 +8,7 @@ import stars from '../images/stars.jpg';
 import Employee from '../Components/Employee/Employee';
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = '327902024';
+const TRACKING_ID = 'G-5T7QL64RT8';
 ReactGA.initialize(TRACKING_ID);
 
 export default function About() {

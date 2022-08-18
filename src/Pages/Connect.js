@@ -3,7 +3,7 @@ import beachFam from '../images/beachFam.jpg';
 import TopView from '../Components/TopView/TopView.js';
 import ReactGA from 'react-ga4';
 
-const TRACKING_ID = '327902024';
+const TRACKING_ID = 'G-5T7QL64RT8';
 ReactGA.initialize(TRACKING_ID);
 
 export default function Connect() {
