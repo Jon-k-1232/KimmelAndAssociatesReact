@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import transparentLogo from '../../images/transparentLogo.png';
 
 export default function Header() {
   const [menuDisplay, setMenuDisplay] = useState(false);
 
   return (
     <header className='constantHead'>
-      <h1 id='companyName'>
-        <Link to='/'>James F. Kimmel & Associates, Inc</Link>
-      </h1>
+      <Link to='/'>
+        <img src={transparentLogo} alt='' id='companyName' style={{ width: '16em', padding: '0' }} />
+      </Link>
+
       <nav className='mainNavbar'>
         <div className='topNav'>
           <div

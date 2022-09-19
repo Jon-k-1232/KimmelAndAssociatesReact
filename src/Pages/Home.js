@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import Seo from '../Components/Seo/Seo';
-import TopView from '../Components/TopView/TopView';
 import ServiceItem from '../Components/ServiceItem/ServiceItem';
-import mainHome from '../images/mainHome.jpg';
 import bookkeeping from '../images/bookkeeping.jpeg';
 import business from '../images/business.jpeg';
 import irs from '../images/irs.jpeg';
@@ -10,6 +8,8 @@ import multi_state from '../images/multi_state.jpeg';
 import trust from '../images/trust.jpeg';
 import table from '../images/table.jpg';
 import ReactGA from 'react-ga4';
+import TopViewWithVideo from '../Components/TopView/TopViewWithVideo';
+import logoVideo from '../images/logoVideo.mp4';
 
 const TRACKING_ID = '327902024';
 ReactGA.initialize(TRACKING_ID);
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className='main'>
       <Seo />
-      <TopView image={mainHome} imageAlt='Every Cent Counts.' SayingLineOne='Every Cent Counts.' />
+      <TopViewWithVideo image={logoVideo} imageAlt='Icon Video' />
       <div className='mainBottom'>
         <main className='contentContainer'>
           <div className='mainQoute'>
