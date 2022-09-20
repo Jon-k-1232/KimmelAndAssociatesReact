@@ -4,7 +4,7 @@ import Carrot from '../Carrot/Carrot';
 export default function TopViewWithVideo({ video, videoAlt, SayingLineOne, SayingLineTwo, classLabel, typography }) {
   return (
     <div className='mainTop'>
-      <video src={video} alt={videoAlt} muted autoPlay style={style.video}></video>
+      <video src={video} alt={videoAlt} playsInline muted autoPlay style={style.video}></video>
       {!SayingLineTwo && !typography && <h1 id='mainHomeTopText'>{SayingLineOne}</h1>}
 
       {SayingLineTwo && !typography && (
