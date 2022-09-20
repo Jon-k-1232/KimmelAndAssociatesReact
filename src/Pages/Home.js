@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className='main'>
       <Seo />
-      <TopViewWithVideo image={logoVideo} imageAlt='Icon Video' />
+      <TopViewWithVideo video={logoVideo} videoAlt='Icon Video' />
       <div className='mainBottom'>
         <main className='contentContainer'>
           <div className='mainQoute'>

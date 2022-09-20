@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import login from '../images/login.jpeg';
+import coinsInJar from '../images/coinsInJar.jpg';
 import TopView from '../Components/TopView/TopView';
 import ReactGA from 'react-ga4';
 
@@ -14,7 +14,7 @@ export default function Sfp() {
   return (
     <div className='sfpPage'>
       <div className='loginWrapper'>
-        <TopView image={login} imageAlt='computer on desk' SayingLineOne='Partnering Together' />
+        <TopView image={coinsInJar} imageAlt='coins in jar' SayingLineOne='Partnering Together' />
 
         <div className='loginBottom'>
           <h3>Uploading documents has never been easier.</h3>

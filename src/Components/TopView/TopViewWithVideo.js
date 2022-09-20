@@ -1,10 +1,10 @@
 import React from 'react';
 import Carrot from '../Carrot/Carrot';
 
-export default function TopViewWithVideo({ image, imageClass, imageAlt, SayingLineOne, SayingLineTwo, classLabel, typography }) {
+export default function TopViewWithVideo({ video, videoAlt, SayingLineOne, SayingLineTwo, classLabel, typography }) {
   return (
     <div className='mainTop'>
-      <video src={image} alt={imageAlt} muted autoPlay className={imageClass ? imageClass : 'mainHomeImage'}></video>
+      <video src={video} alt={videoAlt} muted autoPlay style={style.video}></video>
       {!SayingLineTwo && !typography && <h1 id='mainHomeTopText'>{SayingLineOne}</h1>}
 
       {SayingLineTwo && !typography && (
@@ -25,3 +25,11 @@ export default function TopViewWithVideo({ image, imageClass, imageAlt, SayingLi
     </div>
   );
 }
+
+const style = {
+  video: {
+    background: 'black',
+    height: '102vh',
+    width: '100%'
+  }
+};
