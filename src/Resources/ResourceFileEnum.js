@@ -126,7 +126,6 @@ const files = [
     displayName: 'Estimated Taxes 2022',
     group: 'business'
   },
-  //TODO
   {
     file: taxFacts2022,
     image: taxFacts2022Img,
