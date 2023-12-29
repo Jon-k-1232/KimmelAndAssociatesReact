@@ -18,14 +18,14 @@ const files = {
          image: `${BASE_ASSET_URL}/images/inflation.jpeg`,
          alt: 'Generic tax image',
          displayName: 'Inflation Reduction Act of 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/taxGuide2022.pdf`,
          image: `${BASE_ASSET_URL}/images/bookkeeping.jpeg`,
          alt: 'Tax Guide',
          displayName: '2022 Tax Guide',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/sCorpAndCcorpRetirementPlans2022.pdf`,
@@ -53,7 +53,7 @@ const files = {
          image: `${BASE_ASSET_URL}/images/identity.png`,
          alt: 'identity Theft',
          displayName: 'Identity Theft And Your Taxes',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/traditionalIra2022.pdf`,
@@ -109,7 +109,7 @@ const files = {
          image: `${BASE_ASSET_URL}/images/audits.png`,
          alt: 'Audits 2022',
          displayName: 'Audits 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/estimatedTaxes2022.pdf`,
@@ -123,7 +123,7 @@ const files = {
          image: `${BASE_ASSET_URL}/images/taxFacts2022Img.png`,
          alt: 'Tax Facts 2022',
          displayName: 'Tax Facts 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/employeeOrContractor2022.pdf`,
@@ -165,7 +165,7 @@ const files = {
          image: `${BASE_ASSET_URL}/images/individualIncomeTaxExtension2022Img.png`,
          alt: 'Extending Your Individual Income Tax Return 2022',
          displayName: 'Extending Your Individual Income Tax Return 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/familiesAndChildren2022.pdf`,
@@ -186,14 +186,14 @@ const files = {
          image: `${BASE_ASSET_URL}/images/irsNotice2022Img.png`,
          alt: 'Taxpayers Who Receive an IRS Notice 2022',
          displayName: 'Taxpayers Who Receive an IRS Notice 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/cantPayTaxes2022.pdf`,
          image: `${BASE_ASSET_URL}/images/cantPayTaxes2022Img.png`,
          alt: 'What To Do if You Can’t Pay Your Taxes 2022',
          displayName: 'What To Do if You Can’t Pay Your Taxes 2022',
-         group: 'featured'
+         group: 'individual'
       },
       {
          file: `${BASE_ASSET_URL}/articles/2022/reverseMortgages2022.pdf`,
@@ -203,7 +203,71 @@ const files = {
          group: 'individual'
       }
    ],
-   2023: []
+   2023: [
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/estateTrustTaxGuide2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/taxFacts2022Img.png`,
+         alt: 'Estate Trust Tax Guide 2023',
+         displayName: 'Estate Trust Tax Guide 2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/extendingTaxReturn2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/individualIncomeTaxExtension2022Img.png`,
+         alt: 'Extending Tax Return 2023',
+         displayName: 'Extending Tax Return 2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/individualTaxGuide2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/taxFacts2022Img.png`,
+         alt: 'Individual Tax Guide2023',
+         displayName: 'Individual Tax Guide2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/irsNotice2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/audits.png`,
+         alt: 'IRS Notice 2023',
+         displayName: 'IRS Notice 2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/rideshareDrivers2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/businessOwners2022Img.png`,
+         alt: 'Ride Share Drivers 2023',
+         displayName: 'Ride Share Drivers 2023',
+         group: 'independentContractors'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/scCorpTaxGuide2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/taxFacts2022Img.png`,
+         alt: 'S&C Corp Tax Guide 2023',
+         displayName: 'S&C Corp Tax Guide 2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/shortTermRentals2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/businessOwners2022Img.png`,
+         alt: 'Short Term Rentals 2023',
+         displayName: 'Short Term Rentals 2023',
+         group: 'business'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/solePropPartnershipTaxGuide2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/taxFacts2022Img.png`,
+         alt: 'Sole Prop Partnership Tax Guide 2023',
+         displayName: 'Sole Prop Partnership Tax Guide 2023',
+         group: 'featured'
+      },
+      {
+         file: `${BASE_ASSET_URL}/articles/2023/virtualCurrency2023.pdf`,
+         image: `${BASE_ASSET_URL}/images/identity.png`,
+         alt: 'Virtual Currency 2023',
+         displayName: 'Virtual Currency 2023',
+         group: 'individual'
+      }
+   ]
 };
 
 export default files;
