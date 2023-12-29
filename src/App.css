@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.keywordSearch {
+   display: none;
+}
+
+body {
+   width: 100%;
+   margin: 0;
+   background-color: #ffffff;
+   font-family: Abel;
+}
+
+/****************\\\\\\\\\ Home Mobile /////////****************/
+
+.homePage {
+   min-height: 83vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.mainTop {
+   height: 100vh;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.mainHomeImage {
+   display: flex;
+   object-fit: cover;
+   overflow: hidden;
+   height: 102vh;
+   width: 100%;
+   filter: brightness(55%);
+}
+
+#mainHomeTopText {
+   position: absolute;
+   text-align: center;
+   color: #fff;
+}
+
+.contentContainer {
+   display: flex;
+   flex-direction: column;
+   color: #5c5c5c;
+}
+
+.mainQoute {
+   text-align: center;
+   margin-bottom: 2.5em;
+}
+
+.mainQoute h2 {
+   font-size: 49px;
+   margin: 1em auto 0 auto;
+   font-weight: 600;
+   content: open-quote;
+}
+
+.mainQoute p {
+   font-size: 28px;
+   margin: auto;
+   line-height: 45px;
+}
+
+.serviceItemWrapper {
+   display: flex;
+   justify-content: space-around;
+   flex-flow: wrap;
+   padding-bottom: 2em;
+}
+
+/****************\\\\\\\\\ About Page Mobile /////////****************/
+
+.aboutPage {
+   min-height: 83vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.lowerAbout {
+   display: flex;
+   flex-direction: column;
+}
+
+.aboutStarsImage,
+.aboutCanyonImage {
+   object-fit: cover;
+   overflow: hidden;
+   height: 100vh;
+   width: 100%;
+}
+
+.topWordsAbout,
+.topWordsResource,
+.topWordsSfp {
+   position: absolute;
+   top: 40%;
+   width: 100%;
+   text-align: center;
+   color: #fff;
+}
+
+.teamMembers {
+   display: flex;
+   justify-content: space-around;
+   flex-flow: wrap;
+   padding: 20px;
+}
+
+/****************\\\\\\\\\ Resource Page Mobile /////////****************/
+
+.resourcePage {
+   min-height: 83vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.lowerResources {
+   min-height: 18em;
+   display: flex;
+   justify-content: space-around;
+   flex-flow: wrap;
+   padding: 20px;
+}
+
+/****************\\\\\\\\\ Connect Page Mobile /////////****************/
+
+.connectPage {
+   min-height: 83vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.connectTopImage,
+.loginImage {
+   object-fit: cover;
+   overflow: hidden;
+   width: 100%;
+   height: 100vh;
+}
+
+.topWordsConnect {
+   position: absolute;
+   top: 40%;
+   width: 100%;
+   text-align: center;
+   color: #2a60a7;
+}
+
+#connectPhrase {
+   text-align: center;
+   margin: 0px 30px 35px 30px;
+   font-size: 24px;
+   letter-spacing: 2px;
+   color: #5c5c5c;
+}
+
+.connectAddress {
+   margin: 0px 30px 50px 30px;
+   letter-spacing: 2px;
+}
+
+/****************\\\\\\\\\ SFP Page Mobile /////////****************/
+
+.sfpPage {
+   min-height: 83vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.loginBottom {
+   text-align: center;
+   margin: 112px 16px 112px 16px;
+}
+
+#logIn {
+   background: #cda577;
+   border-radius: 23px;
+   box-shadow: -1px 4px 11px #5c5c5c;
+   color: white;
+   font-family: 'Abel', Helvetica, sans-serif;
+   font-size: 18px;
+   height: 50px;
+   width: 140px;
+   border: none;
+}
+
+@media only screen and (min-width: 700px) {
+   /****************\\\\\\\\\ Home Page Tablet /////////****************/
+   .partnerImageMain,
+   .visionImageMain {
+      width: 400px;
+   }
+
+   .endBoxHome {
+      align-self: flex-end;
+      margin-right: 20px;
+   }
+
+   .visionSection,
+   .partnerSection {
+      width: 400px;
+   }
+
+   .middleBoxHome {
+      align-self: flex-start;
+      margin-left: 20px;
+   }
+
+   .mainTop h1,
+   .upperAbout h1,
+   .topWordResource h1,
+   .topWordsConnect h1,
+   .topWordsSfp h1 {
+      font-size: 40px;
+   }
+
+   .topWordsConnect h4 {
+      font-size: 20px;
+   }
+}
+
+@media only screen and (min-width: 1000px) {
+   /****************\\\\\\\\\ Home Page Large /////////****************/
+   .mainQoute {
+      margin: 3em auto 5em auto;
+   }
+
+   .partnerImageMain,
+   .visionImageMain {
+      width: 600px;
+   }
+
+   .visionSection,
+   .partnerSection {
+      width: 600px;
+   }
+
+   #visionDetails {
+      text-align: right;
+   }
+
+   .visionSection {
+      align-self: flex-end;
+      width: 100%;
+   }
+}

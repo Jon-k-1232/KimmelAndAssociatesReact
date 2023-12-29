@@ -1,0 +1,29 @@
+.horizontalMenu {
+   margin: 5px 0px;
+}
+
+.horizontalMenuList {
+   padding: 0;
+   list-style: none;
+   text-align: center;
+}
+
+.horizontalMenuList li {
+   color: #5c5c5c;
+   cursor: pointer;
+   text-decoration: underline;
+   font-size: 22px;
+   padding: 10px;
+}
+
+.horizontalMenuList li:hover {
+   color: #5c5c5cd1;
+}
+
+@media only screen and (min-width: 500px) {
+   .horizontalMenuList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}

@@ -1,0 +1,18 @@
+.employee {
+  padding: 10px;
+}
+
+.employee img {
+  width: 20em;
+  height: 220px;
+}
+
+.employee h3,
+.employee p {
+  text-align: center;
+}
+
+.employee p {
+  font-weight: 600;
+  color: #cda577;
+}

@@ -1,0 +1,26 @@
+.articleContainer {
+   text-align: center;
+   color: #5c5c5c;
+   padding: 10px;
+}
+
+.articleATag {
+   cursor: 'pointer';
+   text-decoration: none;
+}
+
+.articleATag img {
+   width: 20em;
+   height: 220px;
+}
+
+#fileDisplayName {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #5c5c5c;
+}
+
+#fileDisplayName:hover {
+   color: #5c5c5cd1;
+}
