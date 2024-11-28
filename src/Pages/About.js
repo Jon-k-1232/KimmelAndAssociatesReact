@@ -42,7 +42,7 @@ const employeeList = [
       imageAlt: 'Red Mountain.'
    },
    {
-      name: 'Chen-Yu Weng',
+      name: 'Kimberly Foerster',
       position: 'PROJECT COORDINATOR',
       image: `${BASE_ASSET_URL}/images/desertMountainSunset.jpeg`,
       imageAlt: 'Mountain Sunset.'
@@ -60,20 +60,20 @@ const employeeList = [
       imageAlt: 'Cactus With Stars in the sky.'
    },
    {
-      name: 'Elda Ortiz',
+      name: 'Kati Strough',
       position: 'REGISTERED CLIENT SERVICES ASSOCIATE',
       image: `${BASE_ASSET_URL}/images/sunsetCactus.jpeg`,
       imageAlt: 'Desert cactus at sunset.'
    },
    {
-      name: 'Cassandra Good',
-      position: 'Client Relations Manager',
+      name: 'Eliza Hollingsworth',
+      position: 'CLIENT SERVICES REPRESENTATIVE',
       image: `${BASE_ASSET_URL}/images/fourPeaks.jpeg`,
       imageAlt: 'Four Peaks Mountain.'
    },
    {
       name: 'Kasi Kimmel',
-      position: 'Marketing Coordinator',
+      position: 'MARKETING COORDINATOR',
       image: `${BASE_ASSET_URL}/images/sedona.jpeg`,
       imageAlt: 'Red mountains of Sedona.'
    }
