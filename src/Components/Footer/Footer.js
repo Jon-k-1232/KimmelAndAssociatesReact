@@ -5,7 +5,7 @@ export default function Footer() {
    return (
       <footer className='constantFooter'>
          <div>
-            <h4>James F. Kimmel & Associates</h4>
+            <h4>James F. Kimmel & Associates, Inc</h4>
             <h5>16421 N. Tatum Blvd Suite 120</h5>
             <h5>Phoenix, Az 85032</h5>
             <h5>602-788-0903</h5>
@@ -15,7 +15,7 @@ export default function Footer() {
                Developed by Jon Kimmel
                {/* </a> */}
             </p>
-            <p>&#169; James F. Kimmel & Associates</p>
+            <p>&#169; James F. Kimmel & Associates, Inc</p>
          </div>
       </footer>
    );

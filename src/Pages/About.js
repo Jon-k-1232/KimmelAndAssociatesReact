@@ -41,18 +41,18 @@ const employeeList = [
       image: `${BASE_ASSET_URL}/images/mountain.jpeg`,
       imageAlt: 'Red Mountain.'
    },
-   {
-      name: 'Kimberly Foerster',
-      position: 'PROJECT COORDINATOR',
-      image: `${BASE_ASSET_URL}/images/desertMountainSunset.jpeg`,
-      imageAlt: 'Mountain Sunset.'
-   },
-   {
-      name: 'Laura Baldwin',
-      position: 'REGISTERED CLIENT SERVICES ASSOCIATE',
-      image: `${BASE_ASSET_URL}/images/superstitionMountains.jpg`,
-      imageAlt: 'Superstition Mountains.'
-   },
+   // {
+   //    name: 'Kimberly Foerster',
+   //    position: 'PROJECT COORDINATOR',
+   //    image: `${BASE_ASSET_URL}/images/desertMountainSunset.jpeg`,
+   //    imageAlt: 'Mountain Sunset.'
+   // },
+   // {
+   //    name: 'Laura Baldwin',
+   //    position: 'REGISTERED CLIENT SERVICES ASSOCIATE',
+   //    image: `${BASE_ASSET_URL}/images/superstitionMountains.jpg`,
+   //    imageAlt: 'Superstition Mountains.'
+   // },
    {
       name: 'Marsha Johnson',
       position: 'ACCOUNTING MANAGER',
@@ -61,7 +61,7 @@ const employeeList = [
    },
    {
       name: 'Kati Strough',
-      position: 'REGISTERED CLIENT SERVICES ASSOCIATE',
+      position: 'CLIENT SERVICES ASSOCIATE',
       image: `${BASE_ASSET_URL}/images/sunsetCactus.jpeg`,
       imageAlt: 'Desert cactus at sunset.'
    },
