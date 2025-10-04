@@ -41,18 +41,24 @@ const employeeList = [
       image: `${BASE_ASSET_URL}/images/mountain.jpeg`,
       imageAlt: 'Red Mountain.'
    },
-   // {
-   //    name: 'Kimberly Foerster',
-   //    position: 'PROJECT COORDINATOR',
-   //    image: `${BASE_ASSET_URL}/images/desertMountainSunset.jpeg`,
-   //    imageAlt: 'Mountain Sunset.'
-   // },
-   // {
-   //    name: 'Laura Baldwin',
-   //    position: 'REGISTERED CLIENT SERVICES ASSOCIATE',
-   //    image: `${BASE_ASSET_URL}/images/superstitionMountains.jpg`,
-   //    imageAlt: 'Superstition Mountains.'
-   // },
+   {
+      name: 'Joe Cook',
+      position: 'CLIENT SERVICES ASSOCIATE',
+      image: `${BASE_ASSET_URL}/images/desertMountainSunset.jpeg`,
+      imageAlt: 'Mountain Sunset.'
+   },
+   {
+      name: 'Kennedy Crawford',
+      position: 'CLIENT SERVICES ASSOCIATE',
+      image: `${BASE_ASSET_URL}/images/cactusAtNight.jpeg`,
+      imageAlt: 'Superstition Mountains.'
+   },
+   {
+      name: 'Ella Keller-Ogborn',
+      position: 'CLIENT SERVICES ASSOCIATE',
+      image: `${BASE_ASSET_URL}/images/superstitionMountains.jpg`,
+      imageAlt: 'Superstition Mountains.'
+   },
    {
       name: 'Marsha Johnson',
       position: 'ACCOUNTING MANAGER',
